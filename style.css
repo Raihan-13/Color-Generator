@@ -1,0 +1,37 @@
+h1{
+    margin-top: 3rem;
+    text-align: center;
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
+#teal{
+    background-color: teal;
+}
+button{
+    padding: 20px 50px;
+    font-size: 1.4rem;
+    border: 3px solid transparent;
+    transition: 0.3s;
+    
+}
+button:hover{
+    cursor: pointer;
+    border: 3px solid black;
+    transform: scale(1.1);
+
+}
+div{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3px;
+}
